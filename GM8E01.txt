@@ -101,3 +101,11 @@ Infinite Speed Toggle Off
 E0000000 00000000
   L + R + Z + D-Pad Right
   Doesn't prevent light show!
+
+Infinite HP
+287A55A4 FB8F0470
+140002AC FFC00000
+E0000000 00000000
+  L + R + Z + X
+  Persists through save?
+  Reset with 100% or 21% cheats.
