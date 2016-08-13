@@ -45,7 +45,7 @@ E0000000 00000000
 140003AC 00000001
 140002AC 44BB6000
 E0000000 00000000
-  L + R + X + D-Pad Left
+  L + R + Y + D-Pad Left
   No artifacts
 
 21% Inventory
@@ -80,7 +80,7 @@ E0000000 00000000
 140003AC 00000000
 140002AC 42C60000
 E0000000 00000000
-  L + R + X + D-Pad Right
+  L + R + Y + D-Pad Right
   No Artifacts
 
 Infinite Speed Toggle On
