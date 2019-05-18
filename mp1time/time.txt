@@ -1,0 +1,27 @@
+GM8E01
+Metroid Prime
+
+minutes seconds frames
+0801FEF4 60000000 ; write nop starting at 8001FEF4
+20110004 00000000 ; write 11 nops
+0601FEF4 00000018 ; write 6 instructions/24 bytes
+38E0003C 7CE53BD6 ; li r7, 60 | divw r7, r5, r7
+1CC7003C 7CC62850 ; muli r6, r7, 60 | sub r6, r5, r6
+7CE53B78 60000000 ; mr r5, r7 | nop (unwritten)
+0401FFB8 3880005C ; li r4, 92; changes the text to blank instead of 'elapsed'
+063CCCB7 0000000A ; Write 10 characters (to overwrite the text)
+25643A25 32642E25 ; %2d:%2d.%d just barely fits!
+32640000 00000000
+C2026DB0 0000000B ; what follows is the code from time.s
+ 38630167 3CC0805A
+ 60C68C40 80C60000
+ C80600A0 3CC04270
+ 90C1FFF8 C021FFF8
+ FC000072 FC00001E
+ D801FFF8 80C1FFFC
+ 38E0003C 7CA63BD6
+ 1CE5003C 7CC73050
+ 38E0003C 7C853BD6
+ 1CE4003C 7CA72850
+ 60000000 00000000
+Changes the main menu and mission final screens to show minuntes:seconds.frames instead of hours:minutes
