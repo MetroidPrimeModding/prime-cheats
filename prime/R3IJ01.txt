@@ -1,0 +1,16 @@
+R3IJ01
+New Play Control! Metroid Prime
+
+Enable scan dash
+04193EB4 48000018
+
+Disable scan dash
+04193EB4 40820010
+
+Enable dashing
+041956E0 4800001C
+04193840 801F037C
+
+Disable dashing
+041956E0 4182001C
+04193840 801F0300
