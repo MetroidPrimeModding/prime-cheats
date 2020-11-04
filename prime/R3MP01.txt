@@ -1,0 +1,16 @@
+R3MP01
+Metroid Prime Trilogy
+
+Prime 1 - Enable scan dash
+041935CC 48000018
+
+Prime 1 - Disable scan dash
+041935CC 40820010
+
+Prime 1 - Enable dashing
+04194DF8 4800001C
+04192F58 801F037C
+
+Prime 1 - Disable dashing
+04194DF8 4182001C
+04192F58 801F0300
